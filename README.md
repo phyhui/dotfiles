@@ -26,7 +26,9 @@
 1. Enable WSL and install Ubuntu from Microsoft Store (Windows only)
 2. If you install Homebrew with WSL it will be in a custom directory with all the apps you install with brew.
 You will have to make brew and all the apps globally available with this command:
-`eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)`. 
+
+`eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)`.
+
 Put this in your `config.fish` (if you use mine its already included)
 3. Install fish shell. Example: `brew install fish`.
 4. Make it your default shell with `chsh -s $(which fish)` in bash. (You might have to add it to the `shells` directory first)
