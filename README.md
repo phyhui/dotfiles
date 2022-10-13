@@ -47,32 +47,40 @@ sudo apt-get install ./exa_0.9.0-4_amd64.deb
 5.  Put fish config files in `home/user/.config/fish` folder
 
 ### Usage
-- Fish shell
+#### Fish shell
+- Just a better Shell lol
 
-Just a better Shell lol
-- Fisher
+#### Fisher
+- install packages: `fisher install githubname/repo`
+- uninstall packages: `fisher remove githubname/repo`
+- list installed packages: `fisher list`
 
-install packages: `fisher install githubname/repo`
+#### Tide
+- configuration: `tide configure`
 
-uninstall packages: `fisher remove githubname/repo`
+#### Nerd Font
+- Just better fonts, idk
 
-list installed packages: `fisher list`
-- Tide
+#### z for fish
+- Used for directory jumping.
+- Remembers which diretories you visited and you can instantly jump to them without having to type the whole path
+- Example: `z desk` to jump to desktop or `z dotfiles` and you will end up in the dotfiles github repo
 
-configuration: `tide configure`
-- Nerd Font
+#### exa
 
-Just better fonts, idk
-- z for fish
+- Just makes `ll` look better
 
-Used for directory jumping.
+#### ghq and fzf
 
-Remembers which diretories you visited and you can instantly jump to them without having to type the whole path
+- Shortcuts
 
-Example: `z desk` to jump to desktop or `z dotfiles` and you will end up in the dotfiles github repo
-- exa
+|   Keybindings   | Remarks                                         |
+| --------------- | ----------------------------------------------- |
+| Ctrl-o          | Find a file.                                    |
+| Ctrl-r          | Search through command history.                 |
+| Alt-c           | cd into sub-directories (recursively searched). |
+| Alt-Shift-c     | cd into sub-directories, including hidden ones. |
+| Alt-o           | Open a file/dir using default editor ($EDITOR)  |
+| Alt-Shift-o     | Open a file/dir using xdg-open or open command  |
 
-Just makes `ll` look better
-- ghq and fzf
-
-[tutorial website](https://fotoallerlei.com/blog/post/2019/ghq/post/)
+- [tutorial website](https://fotoallerlei.com/blog/post/2019/ghq/post/)
