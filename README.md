@@ -4,14 +4,14 @@
 
 ## Contents
 
-- [neovim config]()
+- neovim config
 - tmux config
 - [fish config](#fish-shell-config)
 - PowerShell config
 
 ## Fish Shell Config
 ### Sources
-- [Fish shell](https://fishshell.com/) -actual shell
+- [Fish shell](https://fishshell.com/) - actual shell
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
 - [Tide](https://github.com/IlanCosman/tide) - Shell theme. Use version 5: `fisher install ilancosman/tide@v5`
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts. I use Hack Nerd Font.
