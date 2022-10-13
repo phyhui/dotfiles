@@ -33,35 +33,46 @@ You will have to make brew and all the apps globally available with this command
 7. Install Tide theme with Fisher. `fisher install ilancosman/tide@v5`
 8. After configuring tide, copy parameters from `conf.d/tide.fish` to the end of `conf.d/_tide_init.fish` file.
 9. Install z for fish. `fisher install jethrokuan/z`
-10. Install exa.
-`apt install exa` or `brew install exa`
+10. Install exa. `apt install exa` or `brew install exa`
+
 If its not availabe, download it manually:
 ```md
 wget -c http://old-releases.ubuntu.com/ubuntu/pool/universe/r/rust-exa/exa_0.9.0-4_amd64.deb
 sudo apt-get install ./exa_0.9.0-4_amd64.deb
 ```
-9. Install ghq  `brew install ghq`
-10. Install fzf `brew install fzf`
-11. Install ghq for fish `fisher install decors/fish-ghq`
-12. Install fzf for fish `fisher install jethrokuan/fzf`
-13. Put fish config files in `home/user/.config/fish` folder
+1. Install ghq  `brew install ghq`
+2.  Install fzf `brew install fzf`
+3.  Install ghq for fish `fisher install decors/fish-ghq`
+4.  Install fzf for fish `fisher install jethrokuan/fzf`
+5.  Put fish config files in `home/user/.config/fish` folder
 
 ### Usage
 - Fish shell
+
 Just a better Shell lol
 - Fisher
+
 install packages: `fisher install githubname/repo`
+
 uninstall packages: `fisher remove githubname/repo`
+
 list installed packages: `fisher list`
 - Tide
+
 configuration: `tide configure`
 - Nerd Font
+
 Just better fonts, idk
 - z for fish
+
 Used for directory jumping.
+
 Remembers which diretories you visited and you can instantly jump to them without having to type the whole path
+
 Example: `z desk` to jump to desktop or `z dotfiles` and you will end up in the dotfiles github repo
 - exa
+
 Just makes `ll` look better
 - ghq and fzf
+
 [tutorial website](https://fotoallerlei.com/blog/post/2019/ghq/post/)
